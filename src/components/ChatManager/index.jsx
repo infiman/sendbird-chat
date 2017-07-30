@@ -8,8 +8,8 @@ import Button from '../common/Button';
 import './styles.css';
 
 const APP_HOST = process.env.NODE_ENV === 'production' ?
-  'https://infiman.github.io/sendbird-chat/' :
-  'http://localhost:3000';
+  'https://infiman.github.io/sendbird-chat/index.html' :
+  'http://localhost:3000/index.html';
 
 class ChatManager extends React.Component {
   addChat = () => {

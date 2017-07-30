@@ -1,14 +1,11 @@
-import { createStore, applyMiddleware, compose } from 'redux';
+import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
 import appReducer from '../ducks';
 
 const store = createStore(
   appReducer,
-  compose(
-    applyMiddleware(
-      thunkMiddleware,
-    ),
-    window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__(),
+  applyMiddleware(
+    thunkMiddleware,
   ),
 );
 
