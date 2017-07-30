@@ -1,0 +1,13 @@
+.chat-login {
+  flex: 0 0;
+  align-items: center;
+}
+
+.chat-login .input {
+  margin: 0;
+  margin-right: 25px;
+}
+
+.chat-login .black-button {
+  margin: 0;
+}

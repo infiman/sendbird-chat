@@ -1,0 +1,24 @@
+.chat-message {
+  flex: 0 0;
+  margin-bottom: 20px;
+}
+
+.chat-message .chat-message-text {
+  max-width: 425px;
+  padding: 10px;
+  border-radius: 8px;
+  background: #EEE;
+  font-size: 13px;
+  word-wrap: break-word;
+}
+
+.chat-message .chat-message-sender {
+  flex: 0 0;
+  margin: 0 10px;
+}
+
+.chat-message .chat-members-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}

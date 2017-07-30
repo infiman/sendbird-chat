@@ -1,0 +1,14 @@
+.chat-composer {
+  flex: 0 0 75px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-composer .input,
+.chat-composer .black-button {
+  margin: 0;
+}
+
+.chat-composer .input {
+  margin-right: 25px;
+}

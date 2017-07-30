@@ -1,0 +1,22 @@
+.chat-navbar.chat-panel {
+  padding: 0;
+  flex: 0 0 375px;
+  margin-right: 25px;
+}
+
+.chat-navbar h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.chat-navbar .chat-navbar-header {
+  flex: 0 0 75px;
+  padding: 0 25px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-navbar .chat-navbar-header .chat-create-conversation {
+  margin: 0;
+}

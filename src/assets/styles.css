@@ -1,0 +1,85 @@
+html,
+body {
+  min-height: 100%;
+  max-width: 100%;
+}
+
+body {
+  background: #FFF;
+  font-family: sans-serif;
+  color: #333;
+}
+
+html,
+body,
+section {
+  display: flex;
+  flex-grow: 1;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+iframe {
+  border: none;
+  background: none;
+}
+
+.row {
+  flex-direction: row;
+}
+
+.typing-dots {
+  margin: 25px 0 0 50px;
+  width: 10px;
+  height: 10px;
+  position: relative;
+}
+
+.typing-dots div,
+.typing-dots::before,
+.typing-dots::after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: #333;
+}
+
+.typing-dots::before {
+  right: calc(100% + 5px);
+  -webkit-animation: loading 0.9s infinite;
+          animation: loading 0.9s infinite;
+}
+
+.typing-dots div {
+  left: 0;
+  -webkit-animation: loading 0.9s 0.15s infinite;
+          animation: loading 0.9s 0.15s infinite;
+}
+
+.typing-dots::after {
+  left: calc(100% + 5px);
+  -webkit-animation: loading 0.9s 0.3s infinite;
+          animation: loading 0.9s 0.3s infinite;
+}
+
+@keyframes loading {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+    opacity: 0.7;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    opacity: 1;
+  }
+}

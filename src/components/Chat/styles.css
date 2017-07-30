@@ -1,0 +1,14 @@
+.chat {
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+}
+
+.chat-panel {
+  padding: 20px;
+  box-shadow: 0 7px 25px rgba(0, 0, 0, .15);
+}
+
+.chat-main {
+  width: 100%;
+}

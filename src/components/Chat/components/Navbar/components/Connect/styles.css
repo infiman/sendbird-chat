@@ -1,0 +1,15 @@
+.chat-connect {
+  flex: 0 0 55px;
+  align-items: center;
+  padding: 0 25px 10px;
+  justify-content: space-between;
+}
+
+.chat-connect .input,
+.chat-connect .black-button {
+  margin: 0;
+}
+
+.chat-connect .input {
+  margin-right: 25px;
+}

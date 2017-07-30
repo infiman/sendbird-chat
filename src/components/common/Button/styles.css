@@ -1,0 +1,18 @@
+.black-button {
+  flex: 0 0 auto;
+  margin: 10px 10px 0;
+  padding: 10px 22px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #000;
+}
+
+.disabled .black-button {
+  pointer-events: none;
+}

@@ -1,0 +1,50 @@
+.chat-conversation {
+  flex: 0 0 55px;
+  border-bottom: 1px solid #DDD;
+  padding: 5px 25px;
+  align-items: center;
+  font-size: 13px;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.chat-conversation:first-child {
+  border-top: 1px solid #DDD;
+}
+
+.chat-conversation.active {
+  background-color: #F3F3F3;
+}
+
+.chat-conversation .chat-members-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+  margin-right: 10px;
+}
+
+.chat-conversation .chat-last-message {
+  font-style: italic;
+  color: #999;
+  font-size: 12px;
+  justify-content: space-between;
+}
+
+.chat-conversation .chat-last-message-wrap {
+  max-width: 175px;
+  padding-right: 7px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-conversation .chat-interlocutor-wrap {
+  max-width: 225px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.chat-conversation .typing-dots {
+  margin: 4px 0 4px 15px;
+}

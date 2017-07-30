@@ -1,0 +1,26 @@
+.chat-story-view .chat-story-title {
+  flex: 0 0 55px;
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-story-view h4 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 18px;
+}
+
+.chat-story-view .chat-story-view-advice {
+  justify-content: center;
+  align-items: center;
+}
+
+.chat-story-view .chat-story-view-advice h1 {
+  color: #AAA;
+  text-align: center;
+}
+
+.chat-story-view .chat-story-messages {
+  padding: 25px 0;
+  flex-direction: column-reverse;
+}
